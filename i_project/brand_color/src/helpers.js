@@ -7,4 +7,5 @@ return(yiq>= 128) ? "black" : "white";
 }
 export{
     getContrastYIQ 
+    
 }

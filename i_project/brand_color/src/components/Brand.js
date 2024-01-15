@@ -6,7 +6,7 @@ import { getContrastYIQ  } from"../helpers"
   return (
     <>
       <div className='brand'>
-        <h5>{brand.title}</h5> 
+        <h5 onClick={toggleSelcted}>{brand.title}</h5> 
         <div className="brandColors">
           {brand.colors.map(color =>(
             <span style={{'--bgColor': `#${color}`,"--textColor": `${getContrastYIQ(color)}`}}>{color}</span>

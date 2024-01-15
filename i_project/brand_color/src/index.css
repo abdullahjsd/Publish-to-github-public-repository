@@ -60,7 +60,6 @@ padding: 25px;
 }
 .brandColors span{
   background: var(--bgColor);
-  flex: 1;
   height: 40px;
   display: flex;
   justify-content: center;
@@ -69,6 +68,8 @@ padding: 25px;
   font-weight: 500;
   cursor: pointer;
   color: var(--textColor);
+  text-indent: -99999px;
+  width: 70px;
 }
 .header .search{
   flex: 1;
